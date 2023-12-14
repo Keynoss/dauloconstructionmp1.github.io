@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daulo Construction | Home Page</title>
+    <link rel="icon" href="/images/Brand Logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Raleway:ital,wght@0,300;0,500;0,600;0,800;1,300;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="header">
+        <!-- Nav Bar -->
+          <nav>
+  
+              <input type="checkbox" id="check">
+              <label for="check" class="check-btn">
+                  <i class="bi bi-list"></i>
+              </label>
+              <a class="logo" href="index.html"><img src="/images/Brand Logo.png"></a>
+              <div class="nav-links">
+  
+                  
+                  <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="aboutus.html">ABOUT US</a></li>
+                      <li><a href="services.html">SERVICES</a></li>
+                      <li><a href="project.html">PROJECTS</a></li>
+                      <li><a href="contactus.html">CONTACT US</a></li> 
+                      <a class="me-btn" href="fillupform.html">Message Us</a>
+                  </ul>
+              </div>
+              
+          </nav>
+
+        <!-- Contact Details Main -->
+        <div class="contact-us">
+            <h1>CONTACT US</h1>
+            
+            <div class="contact-us-row1">
+                <div class="contact-us-col1 c-us-info">
+                    <div class="c-us-info">
+                        <h2>CONTACT INFORMATION</h2>
+                        
+                        <h3> <i class="fa fa-map-marker" aria-hidden="true"></i> Office Address</h3>
+                        <a href="#">2/F Peninsula Court Bldg., Paseo de Roxas cor. Makati Ave., Makati City, Metro Manila</a>
+                
+                        <h3><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</h3>
+                        <a href="#">(632)817-9469/813-2246</a>
+                
+                        <h3><i class="fa fa-envelope" aria-hidden="true"></i> Email Address</h3>
+                        <a href="#">dauloconstruction@gmail.com</a>
+                    </div>
+                </div>
+                <!-- Google Map Figure -->
+                <div class="contact-us-col1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4592.386488326085!2d121.02399095009707!3d14.557921666023871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2%2FF%20Peninsula%20Court%20Bldg.%2C%20Paseo%20de%20Roxas%20cor.%20Makati%20Ave.%2C%20Makati%20City%2C%20Metro%20Manila!5e0!3m2!1sfil!2sph!4v1700129230036!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    
+      </main>
+
+
+
+    <!-- Send Us Message Form -->
+    <section class="s-u-m">
+        <div>
+            <h2>SEND US MESSAGE</h2>
+        </div>
+
+        <!-- Fill up Form -->
+
+        <div class="s-u-m-info">
+            <div>
+                <form action="#">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input class="form-i" type="text" id="fname" required>
+                            <label id="form-l" for="fname"><i class="fa fa-user-circle" aria-hidden="true"></i> First Name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-i" type="text" id="lname" required>
+                            <label id="form-l" for="lname"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input class="form-i" type="number" id="cnumber" required>
+                            <label id="form-l" for="cnumber"><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Number</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-i" type="email" id="email" required>
+                            <label id="form-l" for="email"><i class="fa fa-envelope" aria-hidden="true"></i> Email Address</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input class="form-i" type="text" id="add" required>
+                        <label id="form-l" for="add"><i class="fa fa-map-marker" aria-hidden="true"></i> Complete Address</label>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea class="form-t" id="messages" cols="30" rows="8" required></textarea>
+                        <label id="form-l" for="messages"><i class="fa fa-comments" aria-hidden="true"></i> Your Message</label>
+                    </div>
+                
+                    <button type="submit">SUBMIT <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+
+                </form>
+            </div>    
+        </div>
+    </section>
+
+ <!-- This is Footer -->
+ <footer>
+    <div class="f-layer">
+      <img src="/images/construction2.jpg" alt="">
+    </div>
+
+    <div class="rowfooter f1">
+    <!-- Left Column Footer -->
+    <div class="colfooter">
+      <a href="index.html"><img src="/images/Brand Logo.png" alt="DC Logo" width="75"></a>
+
+      <p>We assure each client receives outstanding services.</p>
+
+      <h4>You can follow us on:</h4>
+
+      <div class="f-icon">
+        <a href="https://www.facebook.com/dauloconstruction/" target="_blank"><img src="/icon/fb_icon.png" alt="Fb Icon"></a>
+
+        <a href="https://www.instagram.com" target="_blank"><img src="/icon/instagram_icon.png" alt="Ig Icon"></a>
+    </div>
+   </div>
+
+    <!-- 1st Middle Column Footer -->
+    <div class="colfooter f2">
+      <h2>Quick Links</h2>
+
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>  
+      </ul>
+    </div>
+
+  <!-- 2nd Middle Column Footer -->
+    <div class="colfooter f3">
+        <h2>Services</h2>
+
+      <ul>
+          <li><a href="services.html">Whole Construction</a></li>
+          <li><a href="services.html">Renovation</a></li>
+          <li><a href="services.html">Electrical</a></li>
+          <li><a href="services.html">Carpentry</a></li>
+          <li><a href="services.html">Plumbing</a></li>
+          <li><a href="services.html">Painting and Flooring</a></li>
+      </ul>
+  </div>
+
+  <!-- Right Column Footer-->
+  <div class="colfooter f4">
+      <h2>Contact Details</h2>
+      <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>  2/F Peninsula Court Bldg., Paseo de Roxas cor. Makati Ave., Makati City, Metro Manila</a>
+      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> (632)817-9469/813-2246</a>
+      <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> dauloconstruction@gmail.com</a>
+  </div>
+</div>
+
+  <!-- 2nd Row -->
+  <div>
+      <p>Copyright &copy; 2023 Daulo Construction All Right Reserved.</p>
+  </div>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
